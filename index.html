@@ -2,46 +2,61 @@
 <html lang="en">
 
 <head>
-    <title>Portfolio</title>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="Resources\css\portfolio.css">
-    <link rel="stylesheet" type="text/css" href="Resources\css\grid.css">
-    <link rel="stylesheet" type="text/css" href="Resources\css\normalize.css">
 
+    <link rel="stylesheet" type="text/css" href="Resources/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Resources/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="External-Resources/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="External-Resources/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="Resources/css/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="Resources/css/queries.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+    <title>Portfolio</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/resources/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/resources/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/resources/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/resources/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/resources/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/resources/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/resources/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/resources/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/resources/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/resources/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/resources/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/resources/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/resources/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/resources/favicons/manifest.json">
+    <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/resources/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
+
 <body id="page-top">
-    <!-- Navigation -->
     <header>
         <nav>
             <div class="row">
-                <ul class="main-nav js--nav-icon">
-                    <li><a href="#section-biography">Biography</a></li>
-                    <li><a href="#section-projects">Projects</a></li>
-                    <li><a href="#section-certificates">Certificates</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
+                <ul class="main-nav js--main-nav">
+                    <li><a href="#features">Projects</a></li>
+                    <li><a href="#works">Certificates</a></li>
+                    <li><a href="#plans">Sign up</a></li>
                 </ul>
+                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
             </div>
         </nav>
-    </header>
-
-    <!-- Portfolio Bio -->
-    <section class="section-biography" id="Biography">
-        <div class="row">
-            <div class="col span-1-of-2 step-box" <h2>Hi, my name is Craig</h2>
-                <p class="long-copy">
-                    Growing up I was really into gaming. I was always curious about coding and how
-                    it all worked. Unfortunately my school didn't offer any type of coding courses during my tenure.
-                    After HighSchool I served as a Marine from 2009 to 2014. Aftward I attended Ivy Tech where I
-                    received my Associates Degree in General Education in 2019. Now I'm currently studying at Eleven
-                    Fifty Academy to
-                    become a software developer.
-                </p>
-            </div>
+        <div class="hero-text-box col span-1-of-2">
+            <h1>Hi! I'm Craig.</h1>
+            <h2>Growing up I was really into gaming. I was always curious about coding and how
+                it all worked. Unfortunately my school didn't offer any type of coding courses during my tenure.
+                After HighSchool I served as a Marine from 2009 to 2014. Aftward I attended Ivy Tech where I
+                received my Associates Degree in General Education in 2019. Now I'm currently studying at Eleven Fifty
+                Academy to
+                become a software developer.</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-2 step-box" <figure class="biography-photo">
@@ -49,150 +64,191 @@
                 </figure>
             </div>
         </div>
-    </section>
 
-    <!-- Project Applications -->
+    </header>
+
     <section class="section-projects">
-        <div>
-            <h2>Projects</h2>
-        </div>
+        <h3><b>Projects</h3>
+        <p class="long-copy">
+            Here are a few open projects I have been tinkering with.
+        </p>
         <ul class="project-showcase clearfix">
             <li>
                 <figure class="project-photo">
-                    <a href="https://github.com/card5811/Static-Storefront">
-                        <img src="resources/img/StoreFrontPic.png" alt="Storefront Html/Css">
-                    </a>
+                    <a href="https://github.com/card5811/Static-Storefront"><img src="resources/img/StoreFrontPic.png"
+                            alt="Store Front Css"></a>
                 </figure>
             </li>
             <li>
                 <figure class="project-photo">
-                    <a href="https://codepen.io/card5811/pen/VwYNyWO">
-                        <img src="resources/img/CSSCreature.png" alt="Css Creature">
-                    </a>
+                    <a href="https://codepen.io/card5811/pen/VwYNyWO"><img src="resources/img/CSSCreature.png"
+                            alt="Css Creature"></a>
                 </figure>
             </li>
             <li>
                 <figure class="project-photo">
-                    <a href="https://github.com/card5811/HangMan">
-                        <img src="resources/Img/hangman.PNG" alt="Hangman">
-                    </a>
+                    <a href="https://github.com/card5811/HangMan"><img src="resources/Img/hangman.PNG"
+                            alt="Hangman"></a>
                 </figure>
             </li>
         </ul>
         <ul class="project-showcase clearfix">
             <li>
                 <figure class="project-photo">
-                    <a href="https://github.com/card5811/Gold_Badge">
-                        <img src="resources/img/visual community.png" alt="Gold Badge">
-                    </a>
+                    <a href="https://github.com/card5811/Gold_Badge"><img src="resources/img/visual community.png"
+                            alt="Gold Badge"></a>
                 </figure>
             </li>
             <li>
                 <figure class="project-photo">
-                    <a href="https://github.com/card5811/TwoWeekProject-OurTunes-">
-                        <img src="resources/img/OurTunes.png" alt="Blue Badge">
-                    </a>
+                    <a href="https://github.com/card5811/TwoWeekProject-OurTunes-"><img src="resources/img/OurTunes.png"
+                            alt="Blue Badge"></a>
                 </figure>
             </li>
             <li>
                 <figure class="project-photo">
-                    <a href="https://github.com/card5811/TruckingLogistics">
-                        <img src="resources/img/RedBadge.PNG" alt="Red Badge">
-                    </a>
+                    <a href="https://github.com/card5811/TruckingLogistics"><img src="resources/img/RedBadge.PNG"
+                            alt="Red Badge"></a>
                 </figure>
             </li>
         </ul>
     </section>
 
-    <section class="section-certificates">
-        <div>
-            <h2>Certificates</h2>
+    <section class="section-certificates js--section-certificates" id="projects">
+        <div class="row">
+            <h3><b>Certificates</h3>
+            <p class="long-copy">
+                Here are a few open projects I have been tinkering with.
+            </p>
         </div>
         <ul class="certificate-showcase clearfix">
             <li>
                 <figure class="certificate-photo">
                     <a
-                        href="https://udemy-certificate.s3.amazonaws.com/image/UC-5532d265-c25f-4007-9ae5-705bf5ecdfdf.jpg?v=1588869530000">
-                        <img src="resources/img/Udemy-HTML-CSS.jpg" alt="Responsive Html Css Certificate">
-                    </a>
+                        href="https://udemy-certificate.s3.amazonaws.com/image/UC-5532d265-c25f-4007-9ae5-705bf5ecdfdf.jpg?v=1588869530000"><img
+                            src="resources/img/Udemy-HTML-CSS.jpg" alt="Udemy Certificate"></a>
                 </figure>
             </li>
             <li>
-                <figure class="project-photo">
+                <figure class="certificate-photo">
                     <a
-                        href="https://www.youracclaim.com/badges/bc5980cf-6cfe-4319-b1ec-96a0205490d7?source=linked_in_profile">
-                        <img src="resources/img/1150GradCert.png" alt="Eleven Fifty Graduate Certificate">
-                    </a>
+                        href="https://www.youracclaim.com/badges/bc5980cf-6cfe-4319-b1ec-96a0205490d7?source=linked_in_profile"><img
+                            src="resources/img/1150GradCert.png" alt="Eleven FIfty Graduate Certificate"></a>
                 </figure>
             </li>
             <li>
-                <figure class="project-photo">
-                    <a href="https://www.youracclaim.com/badges/eea462f0-3e08-4bf7-ba66-7f7c291aa2fc/linked_in_profile">
-                        <img src="resources/img/RedBadgeCert.png" alt="Red Badge Certificate">
-                    </a>
+                <figure class="certificate-photo">
+                    <a href="https://www.youracclaim.com/badges/f93775a4-8d49-40a7-8db3-06520eef53ea"><img
+                            src="resources/Img/BlueBadgeCert.png" alt="Blue Badge Certificate"></a>
                 </figure>
             </li>
         </ul>
         <ul class="certificate-showcase clearfix">
             <li>
-                <figure class="project-photo">
-                    <a href="https://www.youracclaim.com/badges/eea462f0-3e08-4bf7-ba66-7f7c291aa2fc/linked_in_profile">
-                        <img src="resources/img/BlueBadgeCert.png" alt="Blue Badge Certificate">
-                    </a>
+                <figure class="certificate-photo">
+                    <a href="https://www.youracclaim.com/badges/eea462f0-3e08-4bf7-ba66-7f7c291aa2fc"><img
+                            src="resources/img/RedBadgeCert.png" alt="Red Badge Certificate"></a>
                 </figure>
             </li>
             <li>
-                <figure class="project-photo">
-                    <a href="https://www.youracclaim.com/badges/66949652-7e62-4abf-89b8-04986f4a1c86/linked_in_profile">
-                        <img src="resources/img/GoldBadgeCert.png" alt="Gold Badge Certificate">
-                    </a>
+                <figure class="certificate-photo">
+                    <a href="https://github.com/card5811/TwoWeekProject-OurTunes-"><img
+                            src="resources/img/GoldBadgeCert.png" alt="Gold Badge Certificate"></a>
                 </figure>
             </li>
         </ul>
+        </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact" href="#contact">
-        <div>
-            <h2>Contact Me</h2>
+    <section class="section-form">
+        <div class="row">
+            <h3>I'm happy to hear from you</h3>
         </div>
-        <div class="container">
+        <div class="row">
             <form class="form" action="https://formspree.io/FORM_ID" method="POST">
-                <label>
-                    Your Name:
-                    <input type="text" name="name">
-                </label>
-                <label>
-                    Your Email:
-                    <input type="email" name="_replyto">
-                </label>
-                <label>
-                    Message:
-                    <textarea name="message"></textarea>
-                </label>
-                <input type="submit" value="Send">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Drop me a line</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Send it!">
+                    </div>
+                </div>
             </form>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="small text-center text-muted">Copyright &copy; 2020 - Craig Dunlap</div>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>
+                Copyright &copy; 2015 by Omnifood. All rights reserved.
+            </p>
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-        </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-        </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-        </script>
+        ga('create', 'UA-61026110-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
 
 </body>
 

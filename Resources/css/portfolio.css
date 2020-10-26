@@ -60,7 +60,7 @@ h1, h2, h3 {
 
 h1 {
     text-align: center;
-    color: #fff;
+    color: rgb(201, 196, 196);
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
@@ -69,7 +69,7 @@ h1 {
 h2 {
     font-size: 100%;
     word-spacing: 2px;
-    color: #fff;
+    color: rgb(201, 196, 196);
     text-align: left;
     margin-left: 50px;
     margin-bottom: 30px;
@@ -79,7 +79,7 @@ h2 {
 h3 {
     font-size: 180%;
     word-spacing: 2px;
-    color: #fff;
+    color: rgb(201, 196, 196);
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: 1px;
@@ -102,13 +102,13 @@ h2:after {
     width: 70%;
     margin-left: 15%;
     text-align: center;
-    color: #fff;
+    color: rgb(201, 196, 196);
 }
 
 .box p {
     font-size: 90%;
     line-height: 145%;
-    color: #fff;
+    color: rgb(201, 196, 196);
 }
 
 
@@ -425,7 +425,7 @@ input[type=checkbox] {
 /* ----------------------------------------------- */
 
 footer {
-    background-color: #333;
+    background-color: rgb(139, 0, 0);
     padding: 50px;
     font-size: 80%;
 }
@@ -452,7 +452,7 @@ footer {
 .footer-nav li a:link, .footer-nav li a:visited, .social-links li a:link, .social-links li a:visited {
     text-decoration: none;
     border: 0;
-    color: #888;
+    color: rgb(201, 196, 196);
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
@@ -487,7 +487,7 @@ footer {
 }
 
 footer p {
-    color: #888;
+    color: rgb(201, 196, 196);
     text-align: center;
     margin-top: 20px;
 }

@@ -1,8 +1,4 @@
-/* Orange color: #e67e22
-
-*/
-
-/* ----------------------------------------------- */
+/* Red color: rgb(139, 0, 0)
 
 /* BASIC SETUP */
 
@@ -15,7 +11,7 @@
 }
 
 html, body {
-    background-color: #fff;
+    background-color: #000013;;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
@@ -63,21 +59,19 @@ h1, h2, h3 {
 }
 
 h1 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    margin-left: 150px;
-    color: #000;
+    text-align: center;
+    color: #fff;
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
 }
 
 h2 {
-    font-size: 120%;
+    font-size: 100%;
     word-spacing: 2px;
-    color: #000;
+    color: #fff;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
@@ -85,7 +79,7 @@ h2 {
 h3 {
     font-size: 180%;
     word-spacing: 2px;
-    color: rgb(5, 5, 5);
+    color: #fff;
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: 1px;
@@ -94,7 +88,7 @@ h3 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #e67e22;
+    background-color: rgb(139, 0, 0);
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -108,42 +102,24 @@ h2:after {
     width: 70%;
     margin-left: 15%;
     text-align: center;
+    color: #fff;
 }
 
 .box p {
     font-size: 90%;
     line-height: 145%;
+    color: #fff;
 }
 
-/* ----- ICONS ----- */
 
-.icon-big {
-    font-size: 350%;
-    display: block;
-    color: #e67e22;
-    margin-bottom: 10px;
-}
-
-.icon-small {
-    display: inline-block;
-    width: 30px;
-    text-align: center;
-    color: #e67e22;
-    font-size: 120%;
-    margin-right: 10px;
-    /*secrets to align text and icons*/
-    line-height: 120%;
-    vertical-align: middle;
-    margin-top: -5px;
-}
 
 /* ----- LINKS ----- */
 
 a:link, a:visited {
-    color: #e67e22;
+    color: rgb(139, 0, 0);
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #e67e22;
+    border-bottom: 1px solid rgb(139, 0, 0);
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
@@ -166,27 +142,28 @@ a:hover, a:active {
 }
 
 .btn-full:link, .btn-full:visited, input[type=submit] {
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
+    background-color: rgb(139, 0, 0);
+    border: 1px solid rgb(139, 0, 0);
     color: #fff;
     margin-right: 15px;
 }
 
 .btn-ghost:link, .btn-ghost:visited {
-    border: 1px solid #e67e22;
-    color: #e67e22;
+    border: 1px solid rgb(139, 0, 0);
+    color: rgb(139, 0, 0);
 }
 
 .btn:hover, .btn:active, input[type=submit]:hover, input[type=submit]:active {
-    background-color: #cf6d17;
+    background-color: #fff;
+    color: rgb(139, 0, 0);
 }
 
 .btn-full:hover, .btn-full:active {
-    border: 1px solid #cf6d17;
+    border: 1px solid rgb(139, 0, 0);
 }
 
 .btn-ghost:hover, .btn-ghost:active {
-    border: 1px solid #cf6d17;
+    border: 1px solid rgb(139, 0, 0);
     color: #fff;
 }
 
@@ -230,7 +207,7 @@ header {
 }
 
 .main-nav li a:hover, .main-nav li a:active {
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 2px solid rgb(139, 0, 0);
 }
 
 /* Mobile nav */
@@ -282,32 +259,39 @@ header {
 
 /* ----------------------------------------------- */
 
-.section-bio {
-    padding: 0;
-    margin-top: 1%;
-}
-
-.bio-text {
-    display: block;
-    float: left;
-}
-
-
-
 .section-biography {
-    padding: 0;
-    margin-top: 1%;
+    padding: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    display: flex;
 }
 
-.biography-showcase {
-    display: block;
-    float: left;
+.biography-writing {
+    width: 70%;
 }
 
-.biography-image {
-    display: block;
-    float: right;
-    width: 50%;
+.biography-text {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.photo-box{
+    width: 30%;
+    flex-grow: 1;
+}
+
+.photo-box img{
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 25%;
+
+}
+
+.resume{
+    margin-left: 120px;
 }
 
 /* ----------------------------------------------- */
@@ -317,8 +301,9 @@ header {
 /* ----------------------------------------------- */
 
 .section-projects {
-    padding: 0;
-    margin-top: 1%;
+    padding: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .project-showcase {
@@ -418,7 +403,7 @@ input[type=text], input[type=email], select, textarea {
     width: 100%;
     padding: 7px;
     border-radius: 3px;
-    border: 1px solid #ccc;
+    border: 1px solid #fff;
 }
 
 textarea {
@@ -506,25 +491,3 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
-
-/* ----------------------------------------------- */
-
-/* Animations */
-
-/* ----------------------------------------------- */
-
-.js--wp-1, .js--wp-2, .js--wp-3 {
-    opacity: 0;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-}
-
-.js--wp-4 {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-}
-
-.js--wp-1.animated, .js--wp-2.animated, .js--wp-3.animated {
-    opacity: 1;
-}
-*/
